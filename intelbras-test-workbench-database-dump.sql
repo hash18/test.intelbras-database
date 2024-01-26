@@ -85,6 +85,7 @@ CREATE TABLE IF NOT EXISTS `intelbras`.`user` (
   `name` VARCHAR(150) NULL,
   `username` VARCHAR(100) NULL,
   `pwd` VARCHAR(455) NULL,
+  `email` VARCHAR(455) NULL,
   `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` TIMESTAMP NULL,
   `deleted_at` TIMESTAMP NULL,
